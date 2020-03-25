@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RegisterComponent implements OnInit {
 
+	mensaje:string;
+	mensajedos:string;
+
   constructor() { }
 
   ngOnInit(): void {
+
+  	this.mensaje = 'hola';
+  	console.log("ok");
+  }
+
+  test(){
+
+  	// console.log("ok");
+
+  	this.mensajedos = 'test';
+
   }
 
 }
